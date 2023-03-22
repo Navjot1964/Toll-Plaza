@@ -3,6 +3,7 @@ from datetime import datetime
 
 dict_veh = {"C": "Car", "J": "Jeep", "B": "Bus", "T": "Truck", "M": "Mini Bus",
             "H": "Heavy vehicle"}
+
 prices_single = {"C": 90, "J": 90, "B": 105, "T": 100, "M": 95, "H": 120}
 prices_double = {"C": 150, "J": 150, "B": 180, "T": 170, "M": 170, "H": 210}
 database_single = {}
@@ -205,5 +206,5 @@ while True:
         case "Q":
             break
         case _:
-            print("Not a valid response!")
+            print("Not a valid response.!")
             continue
