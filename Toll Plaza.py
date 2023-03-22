@@ -205,5 +205,5 @@ while True:
         case "Q":
             break
         case _:
-            print("Not a valid response..!")
+            print("Not a valid response.!")
             continue
